@@ -1,7 +1,7 @@
 {
    "name": "Julia Data Science",
    "image": "ghcr.io/julia-vscode/julia-devcontainer",
-   "extensions": ["julialang.language-julia","ms-vscode.cpptools","ms-toolsai.jupyter","ms-toolsai.jupyter-keymap","ms-toolsai.jupyter-renderers"],
+   "extensions": ["julialang.language-julia","ms-toolsai.jupyter","ms-toolsai.jupyter-keymap","ms-toolsai.jupyter-renderers"],
  	"postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl",
    "remoteUser": "vscode"
 }
