@@ -1,8 +1,13 @@
 {
     "extensions": [
       "julialang.language-julia",
-      "ms-vscode.cpptools"
+      "ms-vscode.cpptools",
+       "ms-toolsai.jupyter",
+       "ms-toolsai.jupyter-keymap",
+       "ms-toolsai.jupyter-renderers"
     ],
 
-    "dockerFile": "Dockerfile"
+    "dockerFile": "ghcr.io/julia-vscode/julia-devcontainer",
+ 	"postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl",
+    "remoteUser": "vscode"
 }
