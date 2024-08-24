@@ -35,7 +35,7 @@ XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
 
 [compat]
 AlgebraOfGraphics = "0.6"
-Books = "2"
+Books = "3"
 CSV = "0.10"
 CairoMakie = "0.11"
 CategoricalArrays = "0.10"
